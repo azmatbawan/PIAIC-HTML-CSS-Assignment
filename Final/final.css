@@ -1,0 +1,144 @@
+   .header {
+       background-color: rgb(25, 170, 73);
+   }
+   
+   .header>.container>button {
+       background-color: darkred;
+   }
+   
+   .navbar {
+       font-weight: bold;
+   }
+   
+   .advcon {
+       width: 100%;
+       margin: 30px 0px 30px 0px;
+   }
+   
+   .advantage {
+       text-align: center;
+       line-height: 20px;
+       margin: 10px 0px 30px 0px;
+   }
+   
+   .h1>span {
+       color: green;
+   }
+   
+   .cont-flex {
+       display: flex;
+       margin: 20px 0px 30px 0px;
+   }
+   
+   .cir-img {
+       width: 15%;
+       height: 150px;
+       border: 1px solid rgb(162, 230, 179);
+       background-color: rgb(162, 230, 179);
+       margin: auto;
+       border-radius: 50%;
+   }
+   
+   .cir-img>img {
+       width: 75%;
+       height: 75%;
+       margin: 20px 0px 0px 20px;
+       border-radius: 50%;
+   }
+   
+   .card-text {
+       height: 150px;
+       margin: 5px 0px 30px 0px;
+   }
+   
+   .card-text>h5 {
+       text-align: center;
+   }
+   
+   .about-flex {
+       height: 300px;
+       width: 100%;
+       background-image: url("about/1.jpg");
+       margin: 20px 0px 30px 0px;
+   }
+   
+   .about-flex>p {
+       font-size: large;
+   }
+   
+   .about-flex>p>button {
+       margin: 10px;
+       background-color: green;
+       color: red;
+   }
+   
+   .ser-main {
+       margin: 20px 0px 30px 0px;
+   }
+   
+   .ser-flex {
+       display: flex;
+   }
+   
+   .ser-font {
+       padding: 50px 0px 20px 0px;
+       margin: 10px;
+       background-color: lightgray;
+       text-align: center;
+   }
+   
+   .ser-font>a {
+       color: green;
+   }
+   
+   .ser-upper {
+       margin: 30px 0px 20px 0px;
+       line-height: 10px;
+       text-align: center;
+   }
+   
+   .portfolio {
+       color: white;
+       background-color: gray;
+       height: 500px;
+       border: 1px solid gray;
+       margin: 30px 0px;
+   }
+   
+   .port-top {
+       margin: 20px 0px;
+       line-height: 20px;
+       text-align: center;
+   }
+   
+   .port-mid {
+       margin: 20px 0px;
+   }
+   
+   .port-ul {
+       width: 70%;
+       display: flex;
+       margin: auto;
+   }
+   
+   .port-list {
+       font-weight: bold;
+       list-style: none;
+       margin: auto
+   }
+   
+   .port-bot {
+       width: 80%;
+       margin: auto;
+   }
+   
+   .port-wraper {
+       display: grid;
+       grid-template-columns: repeat(5, 1fr);
+   }
+   
+   .port-img>img {
+       width: 170px;
+       height: 150px;
+       border: 2px solid gray;
+   }
